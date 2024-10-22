@@ -1,4 +1,4 @@
-![Texto alternativo](https://i.pinimg.com/originals/f6/43/07/f6430757b33c60e573c788472a266be8.gif)
+![Texto alternativo](https://i.pinimg.com/originals/73/20/36/7320364da14e8882255263b8c72477b0.gif)
 
 🖐️ Hi! I'm Nay and I'm currently learning to code.
 
