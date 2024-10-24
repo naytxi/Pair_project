@@ -6,44 +6,146 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <img src="avataaars.svg">
-        <h1 class="texto-blanco">START BOOTSTRAP</h1>
-        <h2> <hr style="border: 1px solid black;"> </h2>
-        <h3 class="texto-blanco">Graphic Artist-Web Designer-Illustrator</h3>
+        <img src="/img/avataaars.svg"alt="avatar" title="avatar">
+        <h1>START BOOTSTRAP</h1>
+
+       <div class="divide">
+        <span class="linea1">
+        </span>
+        <span class="estrella1">&#9733
+        </span>
+        <span class="linea1">
+        </span>
+       </div>
+
+        <h3>Graphic Artist-Web Designer-Illustrator</h3>
 
     </header>
     <nav>
-        <h1 class="center">PORTFOLIO</h1>
-        <div>
-        <img src="cabin.png">
-        <img src="cake.png">
-        <img src="circus.png"> 
+        <h1>PORTFOLIO</h1>
+
+        <div class="divide">
+            <span class="linea2">
+            </span>
+            <span class="estrella2">&#9733
+            </span>
+            <span class="linea2">
+            </span>
         </div>
 
         <div>
-        <img src="game.png">
-        <img src="safe.png">
-        <img src="submarine.png">
+        <img src="/img/cabin.png" alt="cabin" title="cabin">
+        <img src="/img/cake.png"alt="cake" title="cake">
+        <img src="/img/circus.png"alt="circus" title="circus"> 
+        </div>
+
+        <div>
+        <img src="img/game.png"alt="game" title="game">
+        <img src="/img/safe.png"alt="safe" title="safe">
+        <img src="/img/submarine.png"alt="submarine" title="submarine">
         </div>
     </nav>
     
     <main>
-        <h1="titulo">ABOUT</h1>
-        <div class="derecha">Freelancer is a free bootstrap theme created by Start Bootstrap.
-            The download includes the complete source files including HTML,CSS, and JavaScript as well as optional SASS
+        <section class="Contenedor">
+       
+            <h1 class="titulo-blanco">ABOUT</h1>
+
+            <div class="divide">
+                <span class="linea1">
+                </span>
+                <span class="estrella1">&#9733
+                </span>
+                <span class="linea1">
+                </span>
+               </div>
+
+            <div class="subtitulos">
+
+            <h4 class="texto-blanco">Freelancer is a free bootstrap theme created by Start Bootstrap.</br>The download includes the complete source files including</br>HTML,CSS, and JavaScript as well as optional SASS
             stylesheets for easy costumization.
+            </h4>
+            
+            <h4 class="texto-blanco"> You can create your own custom avatar for the masthead,</br>change the icon in the dividers, and add your email address</br>
+             to the contact form to make it fully fuctional!
+            </h4>
         </div>
 
-        <div class="izquierda"> You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address
-             to the contact form to make it fully fuctional!
-         </div>   
+        <li class="bottom"><a href="">Free Download!</a></li>
+
+    </section>
+
+    <section class="Contenedor2">
+
+        <h1 class="titulo-negro">CONTACT ME</h1>
+
+        <div class="divide">
+            <span class="linea2">
+            </span>
+            <span class="estrella2">&#9733
+            </span>
+            <span class="linea2">
+            </span>
+
+        </div>
+
+        <div class="form_section">
+            
+            <form action="Recogida.php" method="get">
+
+                <label for="primero"> Name 
+                        <input type="text" id="primero" name="Nombre" placeholder="Name" class="linea-abajo"/>
+                    </label>
+    
+                    <label for="segundo"> Email Adress 
+                        <input type="text" id="segundo" name="email" placeholder="Email" class="linea-abajo"/>
+                    </label>
+
+                    <label for="primero"> Phone Number 
+                        <input type="text" id="tercero" name="phone number" placeholder="Number" class="linea-abajo"/>
+                    </label>
+
+                    <label for="primero"> Message 
+                        <input type="text" id="cuarto" name="message" placeholder="Mesagge" class="linea-abajo"/>
+                    </label>
+
+                <li class="bottom2"><a href="">Send</a></li>
+            </form>
+        </div>
+    
+    </section>
     </main>
 
 </body>
 
 <footer>
+    <section class="Contenedor3">
+    <div class="footer-column">
+        <h3 class="footer-column">LOCATION</h3>
+        <p>2215 John Daniel Drive </br>Cark, MO 65243</p>
+    </div>
 
+    <div class="footer-column">
+        <h3>AROUND THE WEB</h3>
+        <div>
+            <img src="">
+            <img src="">
+            <img src="">
+            <img src="">
+        </div>
+        
+    </div>
+    <div class="footer-column">
+        <h3>ABOUT FREELANCER</h3>
+        <p> Freelance is a free to use , MIT licensed </br> Bootstrap theme created by </p>
+
+    </div>
+</section>
+<section class="Contenedor4">
+
+</section>
 </footer>
 </html>
