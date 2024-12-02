@@ -11,6 +11,7 @@ This is the the first pair project of the Fullstack Bootcamp at PeñascalF5 with
 In this project, each pair of students will work together to create an exact replica of a given landing page using only HTML and CSS.
 This exercise will help you deepen your understanding of HTML structure, CSS styling, and responsive design principles.
 
+<h2>❓STEPS</h2>
 <p> 
   
     **Analyze the Original Page:** Start by examining the layout, colors, fonts, and spacing of the landing page provided. Pay attention to details like margins, paddings, and alignment to ensure accuracy in your replication.
